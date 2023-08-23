@@ -1,0 +1,6 @@
+background color
+border radius
+hover
+transition duration
+box-shadow
+disabled button
