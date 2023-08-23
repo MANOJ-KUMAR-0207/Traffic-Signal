@@ -47,11 +47,12 @@ div
 }
 .green
 {
-    border: 2px solid rgb(51, 171, 51);
+    border: 2px solid green;
     background-color: rgb(51, 171, 51);
 }
 .green:hover , .greenSelected
 {
+    box-shadow: 0 8px 16px 0 green, 0 6px 20px 0 green;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,128,0,1) 15%);
 }
@@ -65,7 +66,7 @@ div
 }
 .red
 {
-    border: 2px solid rgb(255, 91, 91);
+    border: 2px solid red;
     background-color: rgb(255, 91, 91);
 }
 .red:hover, .redSelected 
